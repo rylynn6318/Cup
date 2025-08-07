@@ -1,0 +1,3 @@
+[submodule "Plugins/GameplayMessageRouter"]
+	path = Plugins/GameplayMessageRouter
+	url = https://github.com/rylynn6318/GameplayMessageRouter.git
