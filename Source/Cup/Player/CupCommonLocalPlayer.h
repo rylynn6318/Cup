@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
-#include "CupGameMode.generated.h"
+#include "CommonLocalPlayer.h"
+#include "CupCommonLocalPlayer.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class CUP_API ACupGameMode : public AGameModeBase
+class CUP_API UCupCommonLocalPlayer : public UCommonLocalPlayer
 {
 	GENERATED_BODY()
 	
