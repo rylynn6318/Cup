@@ -11,5 +11,6 @@ public class CupEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
 		ExtraModuleNames.AddRange( new string[] { "Cup" } );
-	}
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
+    }
 }

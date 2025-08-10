@@ -31,6 +31,8 @@ public class Cup : ModuleRules
             "UMG",
             "ModularGameplayActors",
             "GameplayTags",
+            "EnhancedInput",
+            "DeveloperSettings",
         });
     }
 }
