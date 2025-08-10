@@ -27,7 +27,10 @@ public class Cup : ModuleRules
             "SlateCore",
             "CommonUI",
             "CommonGame",
+            "CommonInput",
             "UMG",
+            "ModularGameplayActors",
+            "GameplayTags",
         });
     }
 }

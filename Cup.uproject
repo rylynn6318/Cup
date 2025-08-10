@@ -10,7 +10,8 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"CommonGame"
+				"CommonGame",
+				"CommonUI"
 			]
 		}
 	],
@@ -43,7 +44,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "GameplayMessageRouter",
+			"Name": "ModularGameplayActors",
 			"Enabled": true
 		}
 	]
