@@ -9,8 +9,6 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine",
-				"CommonGame",
 				"CommonUI"
 			]
 		}
@@ -24,27 +22,11 @@
 			]
 		},
 		{
-			"Name": "CommonUser",
-			"Enabled": true
-		},
-		{
-			"Name": "CommonGame",
-			"Enabled": true
+			"Name": "Paper2D",
+			"Enabled": false
 		},
 		{
 			"Name": "CommonUI",
-			"Enabled": true
-		},
-		{
-			"Name": "CommonLoadingScreen",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayMessageRouter",
-			"Enabled": true
-		},
-		{
-			"Name": "ModularGameplayActors",
 			"Enabled": true
 		}
 	]

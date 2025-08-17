@@ -1,38 +1,29 @@
-// Copyright 2025 rylynn6318. All rights reserved.
+// Copyright rylynn6318. All rights reserved.
 
 using UnrealBuildTool;
 
 public class Cup : ModuleRules
 {
-    public Cup(ReadOnlyTargetRules Target) : base(Target)
-    {
-        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+	public Cup(ReadOnlyTargetRules Target) : base(Target)
+	{
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicIncludePaths.AddRange(new string[]
-        {
-            "Cup"
-        });
+		PublicIncludePaths.AddRange(new string[] {
+			"Cup",
+		});
 
-        PublicDependencyModuleNames.AddRange(new string[]
-        {
-            "Core",
-            "CoreUObject",
-            "Engine",
-            "InputCore"
-        });
+        PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", 
+			"CoreUObject",
+			"Engine", 
+			"InputCore",
+		});
 
-        PrivateDependencyModuleNames.AddRange(new string[]
-        {
-            "Slate",
-            "SlateCore",
-            "CommonUI",
-            "CommonGame",
-            "CommonInput",
-            "UMG",
-            "ModularGameplayActors",
-            "GameplayTags",
-            "EnhancedInput",
-            "DeveloperSettings",
+		PrivateDependencyModuleNames.AddRange(new string[] {
+			"CommonUI",
+			"Slate",
+			"SlateCore",
+			"UMG",
         });
-    }
+	}
 }
