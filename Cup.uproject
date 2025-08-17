@@ -22,10 +22,6 @@
 			]
 		},
 		{
-			"Name": "Paper2D",
-			"Enabled": false
-		},
-		{
 			"Name": "CommonUI",
 			"Enabled": true
 		}
